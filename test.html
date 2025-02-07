@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="./script.js"></script>
+    <link rel="shortcut icon" href="./assests\pngegg (2).png" type="image/x-icon">
+</head>
+<body>
+<div class="nav">
+    <div class="container1">
+        <div class="head1">LOGOBAKERY</div>
+        <div class="menu">
+            <ul>Services</ul>
+            <ul>Project</ul>
+            <ul>About</ul>
+        </div>
+        <div class="contact">Contact</div>
+    </div>
+</div><br>
+<div class="head2">
+    <h1>Conference Online Registration</h1>
+    <p>Please fill the form below.We'll contact you as soon as possible.</p>
+</div>
+<br>
+<form action="mailto:arvindchaple@gmail.com?subject=Regstration-form-data" methid="post" enctype="text/plain">
+    <label for="fname" id="heading">Full Name</label><br>
+    <input type="text" id="text1" name="fname" required>
+    <input type="text" id="text2" name="fname" required><br>
+    <label for="first name" id="subing1">First Name</label>
+    <label for="Last name" id="subing2">Last Name</label><br>
+    <label for="dob">DOB</label>
+    <input type="date"  id="+" required><br>
+    <label for="Area" id="heading">Area</label><br>
+    <select name="Area" id="text1"><br> 
+        <option value="Area">Please Select</option>
+        <option value="Subash Nagar">Subash Nagar</option>
+        <option value="Bajaj Nagar">Bajaj Nagar</option>
+        <option value="Sadar">Sadar</option>
+        <option value="Bardi">Bardi</option>
+    </select><br>
+    <label for="Address" id="heading">Address</label><br>
+    <input type="text" id="Address" name="Address" required><br>
+    <label for="Street Address" id="subing">Street Address</label><br>
+    <input type="text" id="Street Address" name="Street Address" required><br>
+    <label for="Street Address  Line 2" id="subing">Street Address  Line 2</label><br>
+    <input type="text" id="text1" name="city" required>
+    <input type="text" name="State/Province" id="text2" required><br>
+    <label for="city" id="subing">City</label>
+    <label for="State/Province" id="subing2">State/Province</label><br>
+    <input type="text" name="Postal/Zip Code"  id="text1" required>
+    <select name="country" id="text2" placeholder="Postal/Zip Code">
+        <option value="Please Select" >Please Select</option>
+        <option value="India">India</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Australia">Australia</option>
+        <option value="Pakistan">Pakisthan</option>
+        <option value="Arab">Arab</option>
+    </select>
+    <br>
+    <label for="Postal/Zip Code" id="subing1">Postal/Zip code</label>
+    <label for="Country" id="subing2" >Country</label><br>
+    <label for="email" id="heading">*E-mail</label><br>
+    <input type="text" name="email" id="text1" placeholder="ex:myname@example.com" required><br>
+    <label for="example" id="subing1">example@example.com</label><br>
+    <label for="pnum" id="heading">Phone Number</label><br>
+    <input type="number" name="pnum" id="text1" placeholder="(000)000-0000" required><br>
+    <label for="choice1" id="heading">First time to attend this conference?</label><br>
+    <input type="checkbox" name="yes" id="choice1"  name="choice1" value="yes"><label for="yes">Yes</label><br>
+    <input type="checkbox" name="no" id="choice1" name="choice1"  value="no"><label for="yes">No</label><br>
+    <label for="choice2" id="heading">I will attend:</label><br>
+    <input type="checkbox" name="choice2" id="choice2"><label for="event1">Event 1-Date of Event 1</label><br>
+    <input type="checkbox" name="choice2" id="choice2"><label for="event1">Event 2-Date of Event 2</label><br>
+    <input type="checkbox" name="choice2" id="choice2"><label for="event1">Event 3-Date of Event 3</label><br>
+    <label for="tsize" id="heading">What's is your T-Shirt size?(inch)</label>
+    <select name="tsize" id="text1">
+        <option value="ps">Please Select</option>
+        <option value="10 to 20">10 to 20</option>
+        <option value="20 to 30">20 to 30</option>
+        <option value="30 to 40">30 to 40</option>
+        <option value="40 to 50">40 to 50</option>
+    </select><br>
+    <label for="fees" id="heading">Registration Fee</label><br>
+    <input type="checkbox" name="fees" id="fees"><label for="feeschoice">Conference Registration Fee(Personal)</label><label for="rupees">$50.00</label><br>
+    <input type="checkbox" name="fees" id="fees"><label for="feeschoice">Conference Registration Fee(Cirporate)</label><label for="rupees">$300.00</label><br>
+    <label for="#" id="subing"> # of Participants</label>
+    <select name="1n" id="1n">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select><br>
+    <label for="total">Total</label><br>
+    <label for="pricerange">price</label>
+    <input type="range" >
+    <label for="file" id="heading">Related Files</label><br>
+
+    <input type="file" name="browse" id="browse"><br>
+    <input type="checkbox" name="Accepted" id="tc" ><label for="agree">I agree to <a href="#">terms & conditions.*</a></label><br>
+    <input type="submit" name="button" id="button">
+    <input type="reset" name="button" id="button">
+    <a href="tel:8087625989"></a>
+
+
+</form>
+</body>
+</html>
